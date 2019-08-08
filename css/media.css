@@ -1,0 +1,66 @@
+/* smart phone and tablet */
+
+@media (max-width: 575.98px) {
+    
+    .nav-link {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    }
+     body {
+
+
+     font-family: 'Cairo', sans-serif;
+     background: #f5f8fa;
+ margin: 56px 0 44px;
+ }
+    .navbar ul
+    {
+               font-size: 0.75rem;
+}
+    .collapse:not(.show)
+    {
+        display: block
+    }
+    .footer p span {
+    color: #10BBB3;
+    font-size:12px;
+}
+    .footer
+    {
+            padding: 10px 39px;
+    }
+    .password .help-block{
+        padding: 3px 5px  ;
+    }
+  
+}
+
+/* small screen*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .collapse:not(.show) {
+    display: block;
+    }
+    
+}
+
+/*medium screen */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+  .collapse:not(.show) {
+    display: block;
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/*large screen and up  */
+
+@media(min-width:1200px) {}
